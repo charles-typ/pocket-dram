@@ -70,7 +70,7 @@ if __name__ == "__main__":
     #rxbytes = [int(iface['rxbytes'])]
     #txbytes = [int(iface['txbytes'])]
     rxbytes = 0
-    lxbytes = 0
+    txbytes = 0
 
     # connect to controller
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
