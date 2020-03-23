@@ -1,0 +1,6 @@
+export CRAIL_HOME=/opt/crail/
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+apt-get update && apt-get install -y ssh rsync vim openjdk-8-jdk net-tools iputils-ping python python-pip python-dev && pip install setuptools && pip install wheel && pip install psutil ifcfg 
+cp -r ./crail /opt/crail
+cd /opt/crail
+./start_datanode_dram.sh
