@@ -13,5 +13,5 @@ fi
 # Start datanode utilization tracking in background
 python datanode.py &> /dev/null &
 
-# Start datanode
-./bin/crail datanode
+# Start datanode in background
+./bin/crail datanode &> datanode_log &
