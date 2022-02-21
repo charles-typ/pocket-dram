@@ -1,2 +1,2 @@
 # Start datanode
-./bin/crail namenode
+./bin/crail namenode &> namenode_log &
